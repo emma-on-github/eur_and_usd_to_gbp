@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
-
 import pandas as pd
 currency = pd.read_excel('downloads/EUR and USD to GBP June 2022 to June 2023.xlsx',
                         sheet_name= 'BoE-Database_export',
@@ -27,10 +21,3 @@ ax2.set_ylabel('USD',
         color='red')
 ax2.tick_params('y', colors='red')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
