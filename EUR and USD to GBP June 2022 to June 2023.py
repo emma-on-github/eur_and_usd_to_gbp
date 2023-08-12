@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 # create a figure and set of subplots
 fig, ax = plt.subplots()
 
-# plot Eur currency as Blue
+# plot EUR currency as Blue
 ax.plot(currency.index, currency["EUR"],
         color='blue')
 
